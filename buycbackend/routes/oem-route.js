@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { oemModal } = require("../models/oemModal");
+const { oemModal } = require("../model/oemModal");
 
 const oemRoute = Router();
 
