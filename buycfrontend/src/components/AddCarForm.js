@@ -46,7 +46,7 @@ const AddCarForm = () => {
   useEffect(() => {
     (() => {
       axios
-        .get(`http://localhost:9000/oem/${id}`)
+        .get(`https://buycback.onrender.com/oem/${id}`)
         .then((res) => {
           setObject(res.data);
         })

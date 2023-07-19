@@ -8,7 +8,7 @@ import {
 export const get_oem_fun = (dispatch) => {
   dispatch({ type: OEM_CAR_REQ });
   axios
-    .get("http://localhost:9000/oem/")
+    .get("https://buycback.onrender.com/oem/")
     .then((res) => {
       dispatch({ type: OEM_CAR_REQ_SUCCESS, payload: res.data });
     })
